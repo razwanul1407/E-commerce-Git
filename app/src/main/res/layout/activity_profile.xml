@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start|left"
+    android:orientation="vertical"
+    android:background="@drawable/colo"
+    tools:context=".Profile">
+
+
+    <EditText
+        android:id="@+id/textView1Id"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:hint="Enter your Phone No."
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/textView2Id"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:hint="Enter your Address"
+        android:inputType="textShortMessage|textLongMessage|text"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="25dp" />
+    <Button
+        android:layout_margin="0dp"
+        android:id="@+id/addtofirebasebuttonId"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Add to fire base"
+        android:textSize="20sp" />
+    <Button
+        android:layout_margin="0dp"
+        android:id="@+id/exitbuttonId"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Logout"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewIddd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textViewIddd2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+    <Button
+        android:id="@+id/buttonjo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Result" />
+    <Button
+        android:layout_margin="0dp"
+        android:id="@+id/deletetofirebasebuttonId"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Delete to fire base"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

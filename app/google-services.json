@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "762748651336",
+    "firebase_url": "https://ilham-a044a.firebaseio.com",
+    "project_id": "ilham-a044a",
+    "storage_bucket": "ilham-a044a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762748651336:android:6f48d10a80f3658b4c557d",
+        "android_client_info": {
+          "package_name": "com.example.ilham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762748651336-td2dsco8gomn7tevc3fun83av70h7nlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ilham",
+            "certificate_hash": "5f68bf18e55b7d6fea3ec3e7f976095a0b092ede"
+          }
+        },
+        {
+          "client_id": "762748651336-2hucs81l0f3jl5rpsbsqmkkbduj9dbqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1-xmAFcaOw4gF8MQd77SoN49bZg_B8KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762748651336-2hucs81l0f3jl5rpsbsqmkkbduj9dbqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

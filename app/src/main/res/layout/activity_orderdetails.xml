@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".orderdetails">
+    <TextView
+        android:id="@+id/signupAccountTextId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Delivery Information"
+        android:textStyle="bold"
+        android:textColor="#47A34B"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#47A34B"
+        android:text="Full Name(First and Last name)" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordernameedittextid"
+        android:hint="Enter your full name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="@drawable/input_design"
+        android:padding="10dp"
+
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#47A34B"
+        android:layout_marginLeft="5dp"
+        android:text="Address" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderaddressedittextid"
+        android:hint="Street address,P.O box,c/o"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:background="@drawable/input_design"
+        android:padding="10dp"
+
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#47A34B"
+        android:layout_marginLeft="5dp"
+        android:text="City" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordercityedittextid"
+        android:background="@drawable/input_design"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:hint="Please enter your city"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#47A34B"
+        android:layout_marginLeft="5dp"
+        android:text="Phone Number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderphonenumberedittextid"
+        android:background="@drawable/input_design"
+        android:hint="Please enter your phone number"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:layout_marginBottom="0dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="#47A34B"
+        android:layout_marginLeft="5dp"
+        android:text="Product id" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderproductidedittextid"
+        android:background="@drawable/input_design"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:text="Product id number"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="#47A34B"
+        android:layout_marginLeft="5dp"
+        android:text="Totall Amount" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordertotallamounttextid"
+        android:background="@drawable/input_design"
+        android:text="Totall Amount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textAppearance="@style/ShapeAppearance.MaterialComponents.SmallComponent"
+            android:textColor="#47A34B"
+            android:layout_marginRight="0dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/orderminusbtn"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/minus"
+
+            android:gravity="center"
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orderquantitytextid"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/orderplusbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/devicefloatingadd"
+            android:gravity="center"
+            android:textSize="30dp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/orderbuttonid"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons"
+        android:text="Order"
+        android:textAllCaps="false"
+
+        />
+
+
+</LinearLayout>

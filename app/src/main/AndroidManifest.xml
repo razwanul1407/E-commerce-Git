@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.razwanul1407">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.razwanul1407.Pictureadd"></activity>
+        <activity android:name="com.example.razwanul1407.watch.watchActivity" />
+        <activity android:name="com.example.razwanul1407.sports.sportsActivity" />
+        <activity android:name="com.example.razwanul1407.camera.cameraActivity" />
+        <activity android:name="com.example.razwanul1407.shoe.shoeActivity" />
+        <activity android:name="com.example.razwanul1407.shirt.shirtActivity" />
+        <activity android:name="com.example.razwanul1407.watch_admin.addwatchdata" />
+        <activity android:name="com.example.razwanul1407.watch_admin.adminwatch" />
+        <activity android:name="com.example.razwanul1407.sports_admin.addsportsdata" />
+        <activity android:name="com.example.razwanul1407.sports_admin.adminsports" />
+        <activity android:name="com.example.razwanul1407.camera_admin.addcameradata" />
+        <activity android:name="com.example.razwanul1407.camera_admin.admincamera" />
+        <activity android:name="com.example.razwanul1407.shoe_admin.addshoedata" />
+        <activity android:name="com.example.razwanul1407.shoe_admin.adminshoe" />
+        <activity android:name="com.example.razwanul1407.shirt_admin.addshirtdata" />
+        <activity android:name="com.example.razwanul1407.shirt_admin.adminshirt" />
+        <activity android:name="com.example.razwanul1407.adddevicedata" />
+        <activity android:name="com.example.razwanul1407.admindevice" />
+        <activity android:name="com.example.razwanul1407.admindeshboard" />
+        <activity android:name="com.example.razwanul1407.adminlogin" />
+        <activity android:name="com.example.razwanul1407.orderdetails" />
+        <activity android:name="com.example.razwanul1407.addedtocart" />
+        <activity android:name="com.example.razwanul1407.userprofile" />
+        <activity android:name="com.example.razwanul1407.Deshboard" />
+        <activity android:name="com.example.razwanul1407.MainActivity" />
+        <activity android:name="com.example.razwanul1407.MainActivity2" />
+        <activity android:name="com.example.razwanul1407.Profile" />
+        <activity android:name="com.example.razwanul1407.SignUpActivity" />
+        <activity
+            android:name="com.example.razwanul1407.splashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

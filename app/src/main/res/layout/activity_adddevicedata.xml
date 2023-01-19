@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".adddevicedata">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textStyle="bold"
+        android:textColor="#47A34B"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addevice_nameid"
+        android:textSize="20sp"
+        android:hint="Product name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/adddevice_productid"
+        android:textSize="20sp"
+        android:hint="Product Id"
+        android:layout_marginBottom="15dp"
+
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/adddevice_priceid"
+        android:textSize="20sp"
+        android:hint="Price"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/adddevice_purlId"
+        android:textSize="20sp"
+        android:hint="Product Image Url"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+
+
+    />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/adddevice_submit"
+        android:textSize="20sp"
+        android:text="Add Item"
+        android:background="@drawable/buttons"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/adddevice_back"
+        android:textSize="20sp"
+        android:text="Back"
+        android:background="@drawable/buttons"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
